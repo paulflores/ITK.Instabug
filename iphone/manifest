@@ -4,13 +4,13 @@
 #
 version: 1.0.0
 apiversion: 2
-description: ITKInstabug
-author: Your Name
+description: Instabug for Titanium
+author: InTheKloud
 license: Specify your license
-copyright: Copyright (c) 2015 by Your Company
+copyright: Copyright (c) 2015 InTheKloud
 
 # these should not be edited
-name: ITKInstabug
+name: ITK.Instabug
 moduleid: itk.instabug
 guid: e0f851ff-250f-40cb-bf4d-0f70cd0bcd5b
 platform: iphone
