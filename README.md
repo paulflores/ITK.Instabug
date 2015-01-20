@@ -27,7 +27,7 @@ Simply add the following lines to your `tiapp.xml` file:
 
 ### startService
 
-To Start Instabug Service, just call the startService method, and provide your Token, which you can obtain from (http://instabug.com) 
+To Start Instabug Service, just call the startService method, and provide your Token, which you can obtain from [instabug.com](www.instabug.com). 
 
 ```javascript
 var instabug = require("itk.instabug");
@@ -58,7 +58,7 @@ instabug.startService({
 
 ## Credits
 
-All credits goes to @instabug for creating such an amazing library. :)
+All credits goes to [@instabug](http://github.com/instabug) for creating such an amazing library. :)
 
 ## Author
 
