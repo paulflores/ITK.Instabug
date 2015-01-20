@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: ITKInstabug
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: ITKInstabug
+moduleid: itk.instabug
+guid: e0f851ff-250f-40cb-bf4d-0f70cd0bcd5b
+platform: iphone
+minsdk: 3.4.1.GA
