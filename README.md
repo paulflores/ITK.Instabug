@@ -9,7 +9,7 @@ The module is licensed under the MIT license.
 
 **Find the newest version in the dist folder**
 
-### via gitTio [![gitTio](http://gitt.io/badge.png)](http://github.com/inthekloud/ITK.Instabug)
+### via gitTio [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/itk.instabug)
 Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it, or simply use the [gitTio CLI](http://gitt.io/cli):
 
 `$ gittio install itk.instabug`
