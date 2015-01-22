@@ -36,7 +36,65 @@ instabug.startService({
 });
 ```
 
-### Color Customization
+## APIs
+
+###Theme Customization
+
+- setHeaderColor(value)
+- setHeaderColor(value)
+- setHeaderFontColor(value)
+- setButtonsColor(value)
+- setButtonsFontColor(value)
+- setTextBackgroundColor(value)
+- setTextFontColor(value)
+- setDefaultEmail(value)
+- setFeedbackHeaderText(value)
+- setFeedbackSentAlertText(value)
+- setFeedbackSentAlertTitle(value)
+
+####Values are hex color codes
+
+###Custom Logging
+
+-IBGLog(value) Allows you to send custom Log to Instabug Report
+-setUserData(value)
+-attachFileAtLocation(filePath)
+
+###Direct Invocation
+- invoke
+- invokeBugReporter
+- invokeFeedbackSender
+- invokeFeedbackSenderViaEmail
+
+###Shaking Threshold
+-setiPhoneShakingThreshold(value)
+-setiPadShakingThreshold(value)
+
+###Setting Locale
+
+-setLocale(value)
+
+####Locale Values
+- IBGLocaleArabic
+- IBGLocaleChineseSimplified
+- IBGLocaleChineseTraditional
+- IBGLocaleEnglish
+- IBGLocaleFinnish
+- IBGLocaleFrench
+- IBGLocaleGerman
+- IBGLocaleItalian
+- IBGLocaleJapanese
+- IBGLocaleKorean
+- IBGLocalePolish
+- IBGLocalePortuguese
+- IBGLocalePortugueseBrazil
+- IBGLocaleRussian
+- IBGLocaleSlovenian
+- IBGLocaleSpanish
+- IBGLocaleSwedish
+- IBGLocaleTurkish
+
+## Initial Customization
 
 You can customize the colors of the Instabug elements using the following properties
 
@@ -52,7 +110,10 @@ instabug.startService({
 ```
 
 ## Changelog
-* v1.0
+* v1.1.0
+  * 64bit Support
+  * New APIs
+* v1.0.0
   * init
 
 
